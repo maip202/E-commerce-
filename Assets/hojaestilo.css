@@ -1,16 +1,32 @@
-head{
+header{
+    display: flex;
+    flex-direction: column;
     width: auto;
     height: 334px;
+    background: white;
 }
 .cajalogo{
+    width: auto;
+    height: 250px;
     display: flex;
     align-self: center;
 }
+.logo {
+    display: block;
+    margin: auto;
+}
 .navegador{
-    color: rgb(10, 14, 14);
+    font-family:  'Lobster', cursive;
+    font-size: 48px;
+    background-color: green;
     width: 100%;
     height: 110px;
 }
 ul{
-    width: auto;
+    display: block;
+}
+li{
+    display: inline;
+    width: 500px;
+    margin: auto;
 }
