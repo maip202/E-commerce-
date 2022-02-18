@@ -68,6 +68,7 @@ li {
   font-size: 90px;
   line-height: 112px;
   color: rgba(156, 1, 195, 0.78);
+  margin-top: 150px;
 }
 
 .h2productos {
@@ -84,6 +85,38 @@ li {
   left: 124px;
   top: 629px;
   background: rgba(255, 255, 255, 0.8);
+}
+
+.h1historia {
+  position: absolute;
+  left: 23.47%;
+  right: 25.69%;
+  top: 34.14%;
+  bottom: 57.16%;
+
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 120px;
+  text-align: center;
+
+  color: #16be1d;
+}
+
+.phistoria {
+  left: 5.83%;
+  right: 8.12%;
+  top: 46.38%;
+  bottom: 22.16%;
+  margin-top: 150px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: justify;
+  color: #000000;
 }
 
 /*footer*/
