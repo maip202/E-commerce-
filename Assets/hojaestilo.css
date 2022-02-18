@@ -1,3 +1,8 @@
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     flex-direction: column;
@@ -9,24 +14,38 @@ header{
     width: auto;
     height: 250px;
     display: flex;
+    align-self: center;    display: flex;
     align-self: center;
+    align-items: flex-end;
+    align-items: flex-end;
 }
 .logo {
-    display: block;
-    margin: auto;
+
 }
 .navegador{
-    font-family:  'Lobster', cursive;
+    text-align: center;
+    font-family: 'Lobster', cursive;
     font-size: 48px;
-    background-color: green;
+    background-color:rgb(66, 190, 39);
     width: 100%;
-    height: 110px;
+    height: 110px; 
 }
 ul{
-    display: block;
+    display: flex;
+    margin: 0px;
+    padding: 0,20px,0, 20px;
 }
 li{
     display: inline;
     width: 500px;
-    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+.navegador ul li a{
+  color: white;
+  text-decoration: none;
+}
+.navegador ul li a:hover{
+    color: yellow;
+    text-decoration: none;
+  }
