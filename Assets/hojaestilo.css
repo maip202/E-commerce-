@@ -3,7 +3,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/*Movil*/
+@media (max-width: 480px) { }
+@media (min-width: 768px)  and (orientation: landscape){ }
+/*Escritorio*/
+@media (min-width: 1200px) {
+}
 /*cabecera*/
 header {
   display: flex;
@@ -55,6 +60,9 @@ li {
   background-size: cover;
   background-position: center;
   background-image: url("../Assets/fotos/fondo-inicio.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dulce {
@@ -92,10 +100,8 @@ li {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   align-items: center;
-  margin-top: 30px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: -200px;
 }
 
 .h1historia {
@@ -117,6 +123,48 @@ li {
   margin-top: -70px;
 }
 
+.contenedorproductos{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  align-items: center;
+}
+
+.h1productos {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #16BE1D;
+}
+.hlistas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 0px;
+  color: #FF00C7;
+
+}
+.hlistas h2{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hlistas h2 a{
+  text-decoration: none;
+  color: #FF00C7;
+}
+.hlistas h2 a:hover{
+  text-decoration: none;
+  color: black;
+}
 /*footer*/
 footer {
   font-family: font-family "Love Ya Like A Sister", cursive;
