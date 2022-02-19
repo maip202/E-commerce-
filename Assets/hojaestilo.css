@@ -54,7 +54,7 @@ li {
   height: 666px;
   background-size: cover;
   background-position: center;
-  background-image: url("../fotos/fondo-inicio.png");
+  background-image: url("../Assets/fotos/fondo-inicio.png");
 }
 
 .dulce {
@@ -90,12 +90,12 @@ li {
 .contenedorhistoria {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px;
+  padding: 20px;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: -100px;
+  margin-bottom: -200px;
 }
 
 .h1historia {
@@ -103,9 +103,8 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 96px;
-  line-height: 120px;
   text-align: center;
-  margin-top: -20px;
+  margin-top: 0px;
   color: #16BE1D;
 }
 
@@ -114,8 +113,8 @@ li {
   font-weight: normal;
   font-size: 28px;
   line-height: 36px;
-  text-align: justify;
-  margin-top: -30px;
+  text-align: justify; 
+  margin-top: -70px;
 }
 
 /*footer*/
@@ -123,7 +122,7 @@ footer {
   font-family: font-family "Love Ya Like A Sister", cursive;
   background-color: white;
   width: 100%;
-  height: 180px;
+  height: 160px;
   display: flex;
   flex-direction: row;
 }
@@ -140,18 +139,27 @@ footer {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-right: 2%;
+  margin-right: 5%;
 }
 .pie-h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+  font-size: 28px;
   text-align: right;
 }
 .contenedor-contacto {
+  height: auto;
   display: flex;
   flex-direction: row-reverse;
   text-align: right;
 }
 .contenedor-contacto p {
   font-size: 14px;
+}
+.contenedor-contacto p a{
+  color: black;
+  text-decoration: none;
 }
 .iconos-contacto {
   display: flex;
