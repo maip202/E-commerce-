@@ -54,7 +54,7 @@ li {
   height: 666px;
   background-size: cover;
   background-position: center;
-  background-image: url("/fotos/fondo-inicio.png");
+  background-image: url("../fotos/fondo-inicio.png");
 }
 
 .dulce {
