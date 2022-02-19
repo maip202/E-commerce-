@@ -87,36 +87,35 @@ li {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.h1historia {
+.contenedorhistoria {
   position: absolute;
-  left: 23.47%;
-  right: 25.69%;
-  top: 34.14%;
-  bottom: 57.16%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: -100px;
+}
 
+.h1historia {
   font-family: "Lobster", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 96px;
   line-height: 120px;
   text-align: center;
-
-  color: #16be1d;
+  margin-top: -20px;
+  color: #16BE1D;
 }
 
 .phistoria {
-  left: 5.83%;
-  right: 8.12%;
-  top: 46.38%;
-  bottom: 22.16%;
-  margin-top: 150px;
-  position: absolute;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
   line-height: 36px;
   text-align: justify;
-  color: #000000;
+  margin-top: -30px;
 }
 
 /*footer*/
