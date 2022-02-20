@@ -167,9 +167,7 @@ li {
 
 .column img {
   float: left;
-  padding: 20px;
-  width: 60%;
-  height: 250px
+  padding: 10px;
 }
 
 .texto {
