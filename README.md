@@ -28,9 +28,25 @@ Adapt to new times and customs by applying new technologies to attract new custo
 
 ## **Development**
 
+The execution of the project has been carried out in Trello.
+https://trello.com/b/YI3PV1yF/e-commerce-project-5g
+
+<img width="1728" alt="Captura de pantalla 2022-02-20 a las 13 14 29" src="https://user-images.githubusercontent.com/99267946/154841977-52b1f32c-75de-44ca-a1ec-dac5733569c6.png">
+
+
+The wireframe has been created in Balsamiq and the MockUp in Figma.
+https://www.figma.com/file/biHp1LExio8L9egk7oPBIP/Bubbal-bumm?node-id=81%3A4
+
 
 ## **Tools**
 
+- Trello
+- Balsamiq
+- Figma
+- Visual Studio Code
+  - HTML
+  - CSS
+- GitHub
 
 ## **Team**
 
