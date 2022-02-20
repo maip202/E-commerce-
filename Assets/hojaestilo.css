@@ -203,6 +203,59 @@ li {
   color: #16BE1D;
 }
 
+/*Caramelos*/
+.row-caramelo {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h1caramelos {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 72px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #16BE1D;
+}
+
+.columnas-caramelos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.cajacaramelos{
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+.h2caramelos {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 25px;
+  text-align:left;
+  color: black;   
+}
+
+.cajastexto {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:normal;
+  font-size: 16px;
+  text-align:left;
+  color: black;  
+}
+
 /*footer*/
 footer {
   font-family: font-family "Love Ya Like A Sister", cursive;
