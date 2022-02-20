@@ -277,10 +277,10 @@ li {
 .caja-texto h3{
   margin: 0px;
   font-family: "Lobster", cursive;
+  font-size: 32px;
   font-style: normal;
-  font-size: 16px;
-  text-align:left;
   color: black;   
+  text-align:left;
   font-weight:normal 
 }
 
