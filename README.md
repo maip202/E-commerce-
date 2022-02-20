@@ -1,5 +1,7 @@
 # Bubbal Bumm
 
+<img width="375" alt="Captura de pantalla 2022-02-20 a las 13 17 45" src="https://user-images.githubusercontent.com/99267946/154842116-fef11599-e8b2-4a3e-806d-a99e4a159866.png">
+
 
 ## **Repositorie**
 
@@ -36,6 +38,10 @@ https://trello.com/b/YI3PV1yF/e-commerce-project-5g
 
 The wireframe has been created in Balsamiq and the MockUp in Figma.
 https://www.figma.com/file/biHp1LExio8L9egk7oPBIP/Bubbal-bumm?node-id=81%3A4
+
+<img width="1728" alt="Captura de pantalla 2022-02-20 a las 13 14 51" src="https://user-images.githubusercontent.com/99267946/154842021-38c5c701-20ee-4769-973a-9105466476f1.png">
+
+<img width="1728" alt="Captura de pantalla 2022-02-20 a las 13 15 05" src="https://user-images.githubusercontent.com/99267946/154842030-89a671f6-48e1-44c9-a569-f609ab3701f5.png">
 
 
 ## **Tools**
