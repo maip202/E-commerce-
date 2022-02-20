@@ -52,7 +52,6 @@ li {
   color: yellow;
   text-decoration: none;
 }
-
 /*contenedor*/
 .Container {
   width: auto;
@@ -165,6 +164,47 @@ li {
   text-decoration: none;
   color: black;
 }
+
+.column img {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  height: 250px
+}
+
+.texto {
+  float: left;
+}
+
+
+.row {
+  position: absolute;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+
+.column {
+  flex: 25%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.h1piruletas {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #16BE1D;
+}
+
 /*footer*/
 footer {
   font-family: font-family "Love Ya Like A Sister", cursive;
