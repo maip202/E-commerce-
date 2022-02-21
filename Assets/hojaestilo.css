@@ -261,18 +261,16 @@ li {
   width:21%;
 }
 .caja-texto{
-  display: flex;
-  flex-direction: column;
   width: 79%;
-  padding-left: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 .caja-texto h3{
   margin: 0px;
   font-family: "Lobster", cursive;
   font-size: 32px;
   font-style: normal;
-  font-weight:normal;
-  font-size: 16px;
+  font-weight:bold;
   text-align:left;
   color: black;   
   text-align:left;
