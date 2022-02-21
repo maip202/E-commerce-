@@ -269,11 +269,14 @@ li {
 .caja-texto h3{
   margin: 0px;
   font-family: "Lobster", cursive;
+  font-size: 32px;
   font-style: normal;
   font-weight:normal;
   font-size: 16px;
   text-align:left;
   color: black;   
+  text-align:left;
+  font-weight:normal 
 }
 .caja-texto p{
   margin-top: 10px;
@@ -337,6 +340,65 @@ li {
   font-size: 16px;
   text-align:left;
   color: black;  
+}
+
+/*Caramelos*/
+.cajacaramelos {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caramelos h1 {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 72px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #16BE1D;
+}
+
+.row-caramelos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.columnas-caramelos {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.cajacaramelos{
+  width:21%;
+}
+
+.caramelos h2 {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight:bold; 
+  font-size: 25px;
+  text-align:left;
+  color: black;   
+}
+
+.cajastexto {
+  margin: 0px;
+  font-family: "Lobster", cursive;
+  font-size: 32px;
+  font-style: normal;
+  color: black;   
+  text-align:left;
+  font-weight:normal 
 }
 
 /*footer*/
